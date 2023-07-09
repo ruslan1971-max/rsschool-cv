@@ -2,7 +2,7 @@
 
 ### Contact information
 
-> **Phone:** +7 9096590371
+> **Phone:**  +7 9096590371
 >
 > **E-mail:** rkirilko@mail.ru
 >
