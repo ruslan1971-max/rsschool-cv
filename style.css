@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+
+.container {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: #000000;
+	color:  #ffffff;
+	margin-bottom: 20px;
+}
+
+.nav {
+	padding: 15px 30px 15px 0;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nav__link {
+	margin-right: 60px;
+	list-style-type: none;
+	font-size: 18px;
+	font-family: 'Courier New', Courier, monospace;
+	cursor: pointer;
+
+	transition: opacity 0.3s linear;
+}
+
+.nav__link:hover {
+  opacity: 0.8;
+}
+
+/*********************************** end style header */
+
+/************************************ start style main */
+.main {
+	font-family: Mukta, suns-serif;
+	font-size: 18px;
+}
+
+
+.main__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 40px;
+}
+
+
+.main__header-title {
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	border-bottom: 1px solid tomato;
+}
+
+.main__header-image {
+	width: 150px;
+	height: 150px;
+	display: block;
+}
+
+.section-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section-width {
+	width: 100%;
+	max-width: 560px;
+	padding: 10px 10px 35px 10px;
+}
+
+.title {
+	display: inline-block;
+  font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	border-bottom: 1px solid tomato;
+}
+
+.pre {
+	padding: 0;
+	margin: 0;
+}
+
+.pre>code {
+	white-space: pre-line;
+}
+
+/* footer style start */
+.footer {
+	background-color: grey;
+	padding: 20px;
+}
+.footer__wrapper {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__year {
+	color: #000000;
+	font-size: 20px;
+}
+
+.footer__link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Courier New', Courier, monospace;
+	margin-left: 30px;
+
+	transition: color 0.3s linear;
+}
+
+.footer__link:hover {
+	color: #000000;
+}
+
+.footer__image {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+/* footer style end */
